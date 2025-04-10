@@ -1,11 +1,20 @@
+import = [
+    "~/.config/alacritty/themes/themes/github_dark_colorblind.toml"
+    #"~/.config/alacritty/themes/themes/moonfly.toml"
+    #"~/.config/alacritty/themes/themes/iris.toml"
+    #"~/.config/alacritty/themes/themes/Cobalt2.toml"
+]
+
 [env]
 WINIT_X11_SCALE_FACTOR = "1.0"
-
 [window]
-opacity = 0.9
+opacity = 0.60
 startup_mode = "Windowed"
+decorations_theme_variant = "Dark"
+#blur = true
 
 [font]
   normal = {family = "JetBrainsMonoNerdFontMono", style = "Regular" }
+
 
 
